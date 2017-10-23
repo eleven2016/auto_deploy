@@ -1,0 +1,28 @@
+
+self.projectPaths = project
+            self.tomcatPath = tomcat
+
+
+def autoDeploy(self):
+            self.__setDefaultConfig()
+    
+    def __setDefaultConfig(self):
+            self.__getProjectNames()
+    
+    def __getProjectNames(self):
+            pomPath = "assembly".join("\\","pom.xml")
+            
+            for path in self.__getProjectNames():
+                tempPath=path.join("\\",pomPath)
+                file=open(tempPath,"r")
+                self.__getNames(file)
+    
+    def __getNames(self,file):
+            lines=file.readlines()
+            name=None;
+            for line in lines:
+                if line.find("assembly.name") >-1:
+                    name=line.lstrip()[line.find("<assembly.name>")+15:line.rfind("<")]
+                    break
+            print(name)
+            self.__getProjectNames().add(name)
