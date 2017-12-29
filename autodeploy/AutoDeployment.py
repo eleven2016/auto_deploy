@@ -14,10 +14,11 @@ class AutoDeployment:
     classdocs
     '''
 
-    def __init__(self, project, tomcat):
+    def __init__(self, project, tomcat, env):
         self.projectPaths = project
         self.tomcatPath = tomcat
         self.projectName = []
+        self.env = env
 
     def autoDeploy(self):
         self.__setDefaultConfig()
@@ -71,7 +72,13 @@ class AutoDeployment:
     def __buildProjects(self):
         for path in self.projectPaths:
             print(path)
-            cmdArg = ["mvn", "clean", "install", "-Pdev"]
+            cmdArg=[]
+            if(self.env == "test"):
+                cmdArg = ["mvn", "clean", "install", "-Ptest"]
+
+            if("dev" == self.env):
+                cmdArg = ["mvn", "clean", "install", "-Pdev"]
+
             sub = subprocess.Popen(cmdArg, stdout=subprocess.PIPE, shell=True, cwd=path)
             out, err = sub.communicate()
             lines = out.splitlines();
