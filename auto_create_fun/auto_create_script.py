@@ -12,6 +12,7 @@ class auto_create_script(object):
         self.table_name = config.get('table_name')
         self.site_name = config.get('site_name')
         self.module_name = config.get('module_name')
+        self.sqls = sqls
 
     # 执行脚本入口
     def run_script(self):
