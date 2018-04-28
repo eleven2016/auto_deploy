@@ -10,7 +10,7 @@ if __name__ == '__main__':
     projectPaths = []
     '''admin'''
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
-    # projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
+    projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
     '''
     
     呼叫中心

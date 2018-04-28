@@ -11,7 +11,7 @@ if __name__ == '__main__':
     projectPaths = []
     # projectPaths = ["D:\\workspace_dev\\tc.tmc.permission"]
 
-    # projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
+    projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
     # projectPaths.append("D:\\workspace_dev\\tmcopplatform")
     # projectPaths=["D:\\workspace_dev\\tc.tmc.corporationapi","D:\\workspace_dev\\tc.tmc.flightwebapi","D:\\workspace_dev\\tc.tmc.corporationwebapi"]
     # projectPaths=["D:\\workspace_dev\\tc.tmc.corporationapi"]
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     # projectPaths = ["D:\\workspace_dev\\tc.tmc.corp.coreinterfaceapi"]
     # projectPaths = ["D:\\workspace_dev\\tc.tmc.corporationapi","D:\\workspace_dev\\tc.tmc.corporationwebapi"]
-    # projectPaths = ["D:\\workspace_dev\\tc.tmc.corporationwebapi"]
+    # projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationwebapi")
     #projectPaths = ["D:\\workspace_dev\\tc.tmc.corp.coreinterfaceapi","D:\\workspace_dev\\tc.tmc.corporationwebapi"]
 
     # projectPaths=["D:\\workspace_dev\\tc.tmc.oaapi"]
@@ -41,7 +41,7 @@ if __name__ == '__main__':
     # projectPaths.append("D:\\workspace_dev\\tmcpaymentnotify")
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.financewebapi")
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.financeschedule")
-    projectPaths.append("D:\\workspace_dev\\tc.tmc.finance")
+    # projectPaths.append("D:\\workspace_dev\\tc.tmc.finance")
 
     tomcatPath = "D:\\apache-tomcat-8.0.44"
     autoDep = AutoDeployment(projectPaths, tomcatPath, environment)
