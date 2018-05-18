@@ -10,7 +10,7 @@ if __name__ == '__main__':
     projectPaths = []
     '''admin'''
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
-    projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
+    # projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
     '''
     
     呼叫中心
@@ -39,12 +39,13 @@ if __name__ == '__main__':
     # projectPaths.append("D:\\workspace_dev\\tmcopplatform")
 
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.corp.coreinterfaceapi")
-    # projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationapi")
-    # projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationwebapi")
+    projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationapi")
+    projectPaths.append("D:\\workspace_dev\\tc.tmc.oaapi")
+    projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationwebapi")
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationwebapi")
     # projectPaths.append("D:\\workspace_dev\\tc.tmc.corp.coreinterfaceapi","D:\\workspace_dev\\tc.tmc.corporationwebapi")
 
-    # projectPaths.append("D:\\workspace_dev\\tc.tmc.oaapi")
+
 
     # projectPaths.append("D:\\workspace_dev\\interflightorderapi","D:\\workspace_dev\\tmcopplatform")
     '''财务'''
