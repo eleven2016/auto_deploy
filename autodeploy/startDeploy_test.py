@@ -11,12 +11,12 @@ if __name__ == '__main__':
     projectPaths = []
     # projectPaths = ["D:\\workspace_dev\\tc.tmc.permission"]
 
-    # projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
+    projectPaths.append("D:\\workspace_dev\\tc.tmc.admin")
     # projectPaths.append("D:\\workspace_dev\\tmcopplatform")
     # projectPaths=["D:\\workspace_dev\\tc.tmc.corporationapi","D:\\workspace_dev\\tc.tmc.flightwebapi","D:\\workspace_dev\\tc.tmc.corporationwebapi"]
-    projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationapi")
-    projectPaths.append("D:\\workspace_dev\\tc.tmc.oaapi")
-    projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationwebapi")
+    # projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationapi")
+    # projectPaths.append("D:\\workspace_dev\\tc.tmc.oaapi")
+    # projectPaths.append("D:\\workspace_dev\\tc.tmc.corporationwebapi")
     # projectPaths=["D:\\workspace_dev\\tc.tmc.admin","D:\\workspace_dev\\tc.tmc.corporationapi"]
     # projectPaths=["D:\\workspace_dev\\tc.tmc.flightwebapi","D:\\workspace_dev\\tc.tmc.corporationapi"]
     # projectPaths=["D:\\workspace_dev\\tc.tmc.platform"]
